@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+/*-----------------------------Variables*/
+:root{
+    --green--color:#7acc2d;
+    --white-color: white;
+    --black-color: #313337;
+    /*tipografia*/
+    --normal: 12px;
+    /*espaciado*/
+    --space: 10px;
+    /*box shadow*/
+    --box: 0px 0 2px 1px #e6e5e9;
+}
+
+/*--------------------------variable*/
+html,
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;;
+    font-size: var(--normal);
+}
+nav{
+    background: var(--green--color);
+    padding: var(--space);
+    color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    padding-left: 20px;
+    list-style: none;
+}
+nav li a{
+    color: var(--black-color);
+    text-decoration: none;
+}
+li a:hover{
+    color: var(--white-color);
+}
+/*----------------------------------------Main section*/
+
+.main-section{
+    padding: 15% 15% 25%;
+    text-align: center;
+}
+.main-section h1{
+    margin: 60px 0;
+    font-size: 30px;
+}
+.products{
+    background-image: url('../images/curve.png');
+    height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+    justify-content: center;
+  
+}
+.product{
+    padding: var(--space);
+    margin-top: -340px;
+    
+}
+.content{
+    background: var(--white-color);
+    padding: var(--space);
+    box-shadow: var(--box);
+    width: 200px;
+}
+.img-content{
+    text-align: center;
+}
+.main-button{
+    background-color: var(--green--color);
+    width: 100%;
+    padding: var(--space);
+    font-size: 18px;
+    color: var(--white-color);
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.main-button:hover{
+    background-color: #5e9e22;
+    
+}
+
+/*============================boxs====*/
+.boxs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10% 22% 1%;
+    border-bottom: 1px solid #EEEEEE;
+
+}
+.box{ 
+    height: 238px;  
+    display: block;    
+    text-align: center; 
+    margin: 10%;
+}
+.box figure{
+    margin: 0;
+}
+.box img{
+    width: 138px;
+    height: 113px;
+}
+.box p{
+    text-align: left;
+}
+/*========================Mentions====*/
+.mentions{
+
+    margin-top:78px ;
+    position: center;
+    
+  
+}
+.mentions h2{
+    text-align: center;   
+    height: 47px;
+    font: Bold 30px/41px Open Sans;
+    letter-spacing: 0px;
+    color: #313337;
+    margin: 0;
+}
+.mention-people{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    padding: 7%  11% 6%;
+}
+.mention{
+     width: 239px;
+    height: 187px;
+    margin: 1% .5%;
+    border-radius: 2px;
+    box-shadow: 0px 3px 6px #00000029;
+    
+}
+.mention figure{
+    margin: 0;
+}
+.mentions img{
+    width: 239px;
+    height: 104px;
+}
+.mention h3{
+    margin: 0;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left:9px;
+
+}
+.mention p{
+    margin-left:9px;
+}
+/*========================== footer ============*/
+.footer{
+    background:  #313337;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.footer a{
+    text-decoration: none;
+    color: var(--white-color);
+    margin: 2% 0;
+}
+/*=========================ventas=====*/
+.modulo-pago{
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: var(--space);
+    width: 90%;
+}
+.modulo-pago-image{
+max-width: 150px;
+text-align: center;
+
+}
+label{
+    font-size: var(--normal);
+}
+label{
+    padding-bottom: var(--space);
+}
+.modulo-pago input{
+    margin:  var(--space) 0;
+    width: 100%;
+    height: 35px;
+    border-radius: 4px;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+.vent .container {
+    height: 70vh;
+}

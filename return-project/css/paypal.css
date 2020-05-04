@@ -1,0 +1,15 @@
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.result-success{
+    color: white;
+    text-align: center;
+}
+.result-success a{
+    color: greenyellow;
+    text-decoration: none;
+}
